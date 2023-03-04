@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<div @click="goBack">返回</div>
+		<u-navbar title="推荐榜单" @click="goBack" :autoBack="true"></u-navbar>
 	</view>
 </template>
 
